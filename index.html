@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identicon Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <script src="./index.js" type="text/javascript"></script>
+    <h1 class="title">Identicon Generator</h1>
+    <h4 class="message">
+      Identicons are generated<br />based on your entered name
+    </h4>
+    <div class="imgdiv">
+      <img id="img" />
+    </div>
+    <a id="linkhref"><h4 class="link" id="link"></h4></a>
+    <div class="inputdiv">
+      <input id="input" placeholder="Enter your name" type="text" />
+    </div>
+    <div class="buttondiv">
+      <button onclick="generateIdenticon()">Generate</button>
+    </div>
+  </body>
+</html>

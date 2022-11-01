@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h4.message {
+  padding-top: 10px;
+  text-align: center;
+}
+
+div.imgdiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+h4.link {
+  padding-top: 10px;
+  text-align: center;
+}
+
+div.inputdiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  height: 25px;
+  width: 200px;
+}
+
+div.buttondiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  height: 25px;
+  width: 200px;
+}
